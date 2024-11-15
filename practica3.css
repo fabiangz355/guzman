@@ -1,0 +1,86 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: hwb(0 80% 13%);
+}
+
+header {
+    background-image: url(https://portal.andina.pe/EDPfotografia'2/Thumbnail/2010/02/16/0000118919W.jpg');
+    background-size: cover;
+    background-position: center top;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+#inicio, #TablaMedallero, #SeleccionPeruana {
+    background-color: rgb(67, 197, 76);
+    color: #141313;
+    padding: 10px;
+    align-content: center;
+}
+
+#Deportes .sede-table {
+    margin-bottom: 20px;
+    width: 100%;
+    /*border-collapse: collapse;  */
+}
+/*   color fondo y letra */
+#Deportes .sede-table td {
+    background-color: pink;
+    color: rgb(10, 118, 114);
+}
+
+#Deportes .sede-table th,
+#Deportes .sede-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    box-sizing: border-box; 
+}
+
+#Deportes .sede-table th {
+    background-color: rgb(83, 146, 219);
+    color: rgb(13, 6, 6);
+}
+
+#Deportes .sede-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    background-color: rgb(131, 223, 226);
+    padding: 10px;
+   /* display: flex; */  ----- ojo
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    
+}
+#inicio{
+    position: center;
+}
